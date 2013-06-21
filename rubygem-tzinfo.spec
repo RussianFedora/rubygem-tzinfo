@@ -4,9 +4,10 @@
 %define geminstdir %{gemdir}/gems/%{gemname}-%{version}
 
 Name:		rubygem-%{gemname}
+Epoch:      1
 Summary: 	%{gemname}
-Version: 	1.0.0
-Release: 	2%{?dist}
+Version: 	0.3.37
+Release: 	1%{?dist}
 Group: 		Development/Languages
 License: 	GPLv2+ or Ruby
 URL:        http://%{gemname}.rubyforge.org/
@@ -48,5 +49,5 @@ rm -rf %{buildroot}
 %{gemdir}/specifications/%{gemname}-%{version}.gemspec
 
 %changelog
-* Tue Jun 4 2013 Sergey Mihailov <sergey.mihailov@gpm.int> - 1.0.0-1
+* Tue Jun 4 2013 Sergey Mihailov <sergey.mihailov@gmail.com> - 0.3.37-1
 - Initial package
